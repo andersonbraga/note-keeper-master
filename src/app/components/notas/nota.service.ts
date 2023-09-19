@@ -7,8 +7,8 @@ import { Observable } from 'rxjs';
   providedIn: 'root', // App module
 })
 export class NotaService {
-  private API_URL = 'http://localhost:3000/notas?_expand=categoria';
-  private API_SelecionaPorID = 'http://localhost:3000/notas/'
+  private API_URL = 'http://localhost:3000/notas';
+
   constructor(private http: HttpClient) {}
 
   criar(nota: Nota): Observable<Nota> {
@@ -20,11 +20,11 @@ export class NotaService {
   }
 
   excluir(nota: Nota): Observable<any> {
-    return this.http.delete<Nota>(this.API_SelecionaPorID + nota.id + "?_expand=categoria");
+    return this.http.delete<Nota>(this.API_URL + nota.id + "?_expand=categoria");
   }
 
   selecionarPorId(id: number): Observable<Nota> {
-    return this.http.get<Nota>(this.API_SelecionaPorID + id + "?_expand=categoria");
+    return this.http.get<Nota>(this.API_URL + id + "?_expand=categoria");
   }
 
   selecionarTodos(): Observable<Nota[]> {
