@@ -1,0 +1,95 @@
+{
+  "categorias": [
+    {
+      "titulo": "Lazer",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "titulo": "Mercado"
+    },
+    {
+      "id": 3,
+      "titulo": "Trabalho"
+    },
+    {
+      "titulo": "Testes HTTP na Aula",
+      "id": 4
+    },
+    {
+      "titulo": "sassasasa",
+      "id": 5
+    },
+    {
+      "titulo": "ddddd",
+      "id": 6
+    },
+    {
+      "titulo": "ddddd",
+      "id": 7
+    },
+    {
+      "titulo": "ddddd",
+      "id": 8
+    },
+    {
+      "titulo": "ddddd",
+      "id": 9
+    }
+  ],
+  "notas": [
+    {
+      "id": 1,
+      "titulo": "Lavar o cachorro 🦮",
+      "conteudo": "Pegar o shampoo > pegar a toalha",
+      "tema": "warning",
+      "categoriaId": 1
+    },
+    {
+      "id": 2,
+      "titulo": "Planejar as Aulas de Angular",
+      "conteudo": "Pesquisar material",
+      "tema": "info",
+      "categoriaId": 3
+    },
+    {
+      "id": 3,
+      "titulo": "",
+      "conteudo": "",
+      "tema": "success",
+      "categoriaId": 1
+    },
+    {
+      "id": 4,
+      "titulo": "aaa",
+      "conteudo": "dddd",
+      "tema": "success",
+      "categoriaId": 1,
+      "categoria": {
+        "titulo": "Lazer",
+        "id": 1
+      }
+    },
+    {
+      "id": 5,
+      "titulo": "",
+      "conteudo": "",
+      "tema": "success",
+      "categoriaId": 1
+    },
+    {
+      "id": 6,
+      "titulo": "",
+      "conteudo": "",
+      "tema": "success",
+      "categoriaId": 1
+    },
+    {
+      "id": 7,
+      "titulo": "aadada",
+      "conteudo": "",
+      "tema": "dark",
+      "categoriaId": "5"
+    }
+  ]
+}
